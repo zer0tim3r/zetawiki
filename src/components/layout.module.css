@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+.logo {
+  font-size: 1.25rem;
+  margin: 0 .3rem;
+  /* font-family: 'Concert One', cursive; */
+}
+
+.icon {
+  margin-right: 0.3rem;
+}
+
+.logo:hover {
+  background-color: transparent !important;
+}
+
+.navbar {
+  /* display: flex; */
+  width: 100%;
+  background-color: #008275;
+  color: #eceeef;
+}
+
+.navbar>form {
+  display: inline-flex;
+  float: right;
+}
+
+.navbar a {
+  display: inline-flex;
+  /* width: 6.6rem; */
+  height: 2.6rem;
+  padding: 0 .3rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  color: #eceeef;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #eceeef;
+  background-color: #38a59a;
+}
+
+.navbar button, .content button, .context a {
+  text-decoration: none;
+
+  border-left: 0;
+
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-left-width: .0625rem;
+  border-radius: 0;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 400;
+  height: 2.62rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: .25rem .5rem;
+  text-align: center;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap
+}
+
+.content button, .context a {
+  font-size: .9rem;
+  height: auto !important;
+}
+
+.navbar button span, .content button span, .context a span  {
+  display: table-cell;
+  font-size: 1.2rem!important;
+  font-weight: 400;
+  white-space: nowrap;
+  width: auto;
+
+  display: block;
+  min-width: 15px;
+}
+
+.navbar button:hover, .navbar button:active, 
+.content button:hover, .content button:active,
+.context a:hover, .context a:active {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+.content {
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.context {
+  float: right;
+}
+
+.content>h1 {
+  font-weight: 800;
+  font-size: 2.2em;
+  margin: 0 0 2rem;
+}
+
+
+@media screen and (max-width: 42em) {
+
+  .content {
+    padding: 0.7rem;
+  }
+
+  .content>h1 {
+    margin-top: 1rem;
+  }
+
+  .context {
+    margin: -.7rem -.7rem 0;
+    display: flex;
+    justify-content: right;
+    float: none;
+    border-bottom: 0.0625rem solid #ccc;
+  }
+  
+  .context a:last-child,
+  .context button:last-child {
+    border-right: none;
+  }
+
+  .navbar>form {
+    display: flex;
+    float: none;
+  }
+
+  .navbar a {
+    padding: 0.6rem 0.3rem 0.5rem;
+  }
+
+  .navlink span {
+    margin: 0rem;
+  }
+
+  .linkName {
+    display: none;
+  }
+}

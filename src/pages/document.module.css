@@ -1,0 +1,189 @@
+.docTitle {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 2rem;
+  white-space: pre-wrap;
+}
+
+.docTitle span {
+  font-size: 70%;
+  font-weight: 400;
+}
+
+.timeStamp {
+  font-size: .85rem;
+  margin-bottom: 1rem;
+  margin-top: -1.8rem;
+  text-align: right;
+}
+
+.wrapper {
+  line-height: 1.5;
+  font-size: .9rem;
+}
+
+.wrapper h1,
+.wrapper h2,
+.wrapper h3,
+.wrapper h4,
+.wrapper h5,
+.wrapper h6 {
+  line-height: 1.5;
+  font-weight: 700;
+  margin: 1.2em 0 0.5em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.wrapper h1 {
+  font-size: 1.6em;
+}
+
+.wrapper h2 {
+  font-size: 1.4em;
+}
+
+.wrapper h3 {
+  font-size: 1.2em;
+}
+
+.wrapper h4 {
+  font-size: 1em;
+}
+
+.wrapper h5 {
+  font-size: 1em;
+}
+
+.wrapper h6 {
+  font-size: 1em;
+}
+
+.wrapper p {
+  margin: 0;
+}
+
+.wrapper a,
+.styled-table a,
+.history a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+.wrapper a:hover,
+.styled-table a:hover,
+.history a:hover {
+  text-decoration: underline;
+  text-decoration-color: #0275d8;
+  text-decoration-style: solid;
+  text-underline-position: under;
+}
+
+.styled-table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  /* min-width: 400px; */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  word-break: break-all;
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+
+@media screen and (max-width: 42em) {
+  .timeStamp {
+    margin-top: -1.4rem;
+  }
+}
+
+.history span {
+  font-weight: 700;
+}
+
+
+.history button {
+  border: none;
+}
+
+/* .docMove input,
+.docMove input:focus {
+  outline: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-color: #fff;
+  background-image: none;
+  border: .0625rem solid #000;
+  border-radius: 0;
+  color: #55595c;
+  font-size: .9rem;
+  height: 100%;
+  margin: 0;
+  padding: .25rem .5rem;
+  box-sizing: inherit;
+} */
+
+.docMove input,
+.docMove input:focus {
+  outline: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-color: #fff;
+  background-image: none;
+  border: .0625rem solid #aaa;
+  border-radius: 0;
+  color: #55595c;
+  font-size: .9rem;
+  margin: .4rem 0;
+  box-sizing: inherit;
+}
+
+.docMove button {
+  width: 100px;
+  color: #fff !important;
+  background-color: #0275d8 !important;
+  border-color: #0275d8 !important;
+}
+
+.docMove button:hover {
+  background-color: #025aa5 !important;
+  border-color: #01549b !important;
+}
+
+.docMove button:disabled {
+  color: #000 !important;
+  background-color: #e6e6e6 !important;
+  border-color: #adadad !important;
+}

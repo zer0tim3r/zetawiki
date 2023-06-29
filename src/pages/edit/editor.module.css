@@ -1,0 +1,23 @@
+
+.context {
+    display: flex;
+    justify-content: right;
+}
+
+.context button {
+    width: 100px;
+    color: #fff !important;
+    background-color: #0275d8 !important;
+    border-color: #0275d8 !important;
+}
+
+.context button:hover {
+    background-color: #025aa5 !important;
+    border-color: #01549b !important;
+}
+
+.context button:disabled {
+    color: #000 !important;
+    background-color: #e6e6e6 !important;
+    border-color: #adadad !important;
+}
